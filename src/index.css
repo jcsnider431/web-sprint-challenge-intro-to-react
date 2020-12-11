@@ -4,5 +4,5 @@ body {
   font-family:fantasy;
   background-image: url('./images/rm-bg.jpg');
   background-size: auto;
-  
+  border: 10px solid mediumpurple;
 }

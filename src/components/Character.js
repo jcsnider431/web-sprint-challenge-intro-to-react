@@ -37,11 +37,11 @@ const CardStyle = styled.div`
      width: 35%;
      background-color: mediumspringgreen;
      font-weight: bold;
-     opacity: 0;
+     opacity: 0.5;
      transition: .1s;
      &:hover{
         opacity: 1;
-
+        transform: scale(1.2);
      img {
          margin: 20px auto;
          height: 20vh;
