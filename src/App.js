@@ -6,19 +6,8 @@ import Character from './components/Character'
 import styled from 'styled-components';
 
 
-const AppStyle = styled.div`
-
-  margin: 100px;
-  border: 1px solid mediumpurple;
-  box-shadow: 0px 1px 40px -2px mediumpurple;
-  border-radius: 20px;
-  
-  
 
 
-
-
-`
 const App = () => {
 
   const [characters, setCharacters] = useState([]);
@@ -40,12 +29,12 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <AppStyle>
+   
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Characters of Rick and Morty</h1>
       <Character characters={characters} />
     </div>
-    </AppStyle>
+    
   );
 }
 

@@ -18,6 +18,7 @@ export default function Character(props) {
                             <p>Origin: {character.origin.name}</p>
                             <p>Gender: {character.gender}</p>
                             <p>Species: {character.species}</p>
+                            <p>Location: {character.location.name}</p>
                             <p>Status: {character.status}</p>    
                         </div>  
                     </div>
@@ -37,11 +38,11 @@ const CardStyle = styled.div`
      width: 35%;
      background-color: mediumspringgreen;
      font-weight: bold;
-     opacity: 0.5;
+     opacity: 0.15;
      transition: .1s;
      &:hover{
         opacity: 1;
-        transform: scale(1.2);
+        transform: scale(1.1);
      img {
          margin: 20px auto;
          height: 20vh;
